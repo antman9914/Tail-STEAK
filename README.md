@@ -1,6 +1,6 @@
 # Tail-STEAK: Improve Friend Recommendation for Tail Users via Self-Training Enhanced Knowledge Distillation
 
-This is the code for our paper *"Tail-STEAK: Improve Friend Recommendation for Tail Users via Self-Training Enhanced Knowledge Distillation"* accepted by AAAI 2024. Our code is implemented in PyTorch 1.10.2 and PyTorch-Geometric 2.2.0. If you would like to use your own datasets, it's suggested to install numba, gensim and scipy as well.
+This is the code for our paper [*"Tail-STEAK: Improve Friend Recommendation for Tail Users via Self-Training Enhanced Knowledge Distillation"*](https://ojs.aaai.org/index.php/AAAI/article/view/28737) accepted by AAAI 2024. Our code is implemented in PyTorch 1.10.2 and PyTorch-Geometric 2.2.0. If you would like to use your own datasets, it's suggested to install numba, gensim and scipy as well.
 
 ## Datasets
 
