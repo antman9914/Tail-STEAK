@@ -14,7 +14,7 @@ fi
 NODE_FEAT_INIT=$DATASET_DIR'/init_emb.npy'
 GRAPH_PATH=$DATASET_DIR'/graph.txt'
 
-mode='train'
+mode='train'    # ['train', 'test']
 
 gpu_id=0
 layer_num=2
@@ -28,8 +28,8 @@ lr=0.001
 weight_decay=0.0001
 
 eval_per_n=50   # 400 for lastfm, 50 for deezer
-epoch_num=5    # 5 for lastfm, 25 for deezer
-ft_epoch=2     # 3 for lastfm, 10 for deezer
+epoch_num=25    # 5 for lastfm, 25 for deezer
+ft_epoch=10     # 3 for lastfm, 10 for deezer
 
 ssl_temp=0.5
 ssl_reg=1      # 1 for deezer, 0.5 for lastfm
