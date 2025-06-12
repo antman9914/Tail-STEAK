@@ -4,7 +4,7 @@ This is the code for our paper [*"Tail-STEAK: Improve Friend Recommendation for 
 
 ## Datasets
 
-We use Deezer and Last.FM for evaluation. We have uploaded preprocessed data in [Quark Drive](https://pan.quark.cn/s/d97dcea27d07), please keep the provided file structure unchanged. Each dataset is composed of 2 files, where `graph.txt` provides graph data, `init_emb.npy` is Node2Vec-based user ID embedding initialization. If you would like to use your own datasets, please refer to the data format in `graph.txt`. We have also provided Node2Vec-based ID embedding initialization code in `preprocess/dense_feat_extract.py`.
+We use Deezer and Last.FM for evaluation. We have uploaded preprocessed data in both [Quark Drive](https://pan.quark.cn/s/d97dcea27d07) and Google Drive([Deezer](https://drive.google.com/drive/folders/1xn8jrKm-cdEQxBsxKV2v5LCQsym7QtsW?usp=sharing) and [Last.FM](https://drive.google.com/drive/folders/1ayc5rT0awYfhXLo88X7WkLk0WfZRoKKR?usp=sharing)). Please keep the provided file structure unchanged. Each dataset is composed of 2 files, where `graph.txt` provides graph data, `init_emb.npy` is Node2Vec-based user ID embedding initialization. If you would like to use your own datasets, please refer to the data format in `graph.txt`. We have also provided Node2Vec-based ID embedding initialization code in `preprocess/dense_feat_extract.py`.
 
 ## Model Training
 
